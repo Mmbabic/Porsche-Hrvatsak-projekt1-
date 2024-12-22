@@ -1,0 +1,119 @@
+body,
+html {
+  display: block;
+  text-align: center;
+  background-color: white;
+  color: #333; /* Bolja boja za čitljivost */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+a {
+  color: #333;
+}
+
+h1 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+#head {
+  font-size: 5rem; /* Adjust the size of the text */
+  text-align: center;
+  background-color: #333; /* Change background color as needed */
+  color: white; /* Text color */
+  width: 100%;
+  height: 150px; /* Adjust the height of the header */
+  line-height: 150px; /* Align text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#location {
+  color: red; /* Set a visible color */
+  display: inline-block; /* Ensure it's visible as an inline element */
+  margin-top: 10px; /* Add space if needed */
+  cursor: pointer; /* Make it clear it's clickable */
+}
+
+/* Carousel container */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1472px; /* Adjust based on your preference */
+  height: 736px; /* Adjust height */
+  margin: 10px auto; /* Center the carousel */
+  overflow: hidden; /* Hide overflowing images */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Carousel images */
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images fit properly */
+  opacity: 0; /* Start hidden */
+  transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
+/* Active image */
+.carousel-image.active {
+  opacity: 1; /* Show active image */
+}
+#text1 {
+  text-align: justify;
+  margin: 20px 0;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  flex: 1; /* Allow it to grow and take available space */
+}
+h2 {
+  font-weight: bold;
+  margin-bottom: 10px; /* Reduces space after h2 */
+  font-size: 1.8rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 5px; /* Brings p closer to h2 */
+  margin-bottom: 15px;
+  text-align: justify; /* Ensures even text alignment */
+}
+
+ul {
+  margin: 10px 0 20px 20px; /* Adds margin to the list */
+  padding-left: 20px;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 10px; /* Adds space between list items */
+  list-style: disc inside; /* Moves bullets closer to text */
+}
+
+li:last-child {
+  margin-bottom: 0; /* Removes margin after the last item */
+}
