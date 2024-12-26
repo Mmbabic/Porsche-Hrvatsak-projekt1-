@@ -6,8 +6,6 @@ html {
   color: #333; /* Bolja boja za čitljivost */
   margin: 0;
   padding: 0;
-  align-items: center;
-  justify-content: center;
   height: 100%;
 }
 
@@ -54,7 +52,7 @@ footer {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 1472px; /* Adjust based on your preference */
+  max-width: 2860px; /* Adjust based on your preference */
   height: 736px; /* Adjust height */
   margin: 10px auto; /* Center the carousel */
   overflow: hidden; /* Hide overflowing images */
@@ -97,10 +95,9 @@ h2 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-top: 5px; /* Brings p closer to h2 */
   margin-bottom: 15px;
-  text-align: justify; /* Ensures even text alignment */
 }
 
 ul {
@@ -109,11 +106,33 @@ ul {
 }
 
 li {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-bottom: 10px; /* Adds space between list items */
   list-style: disc inside; /* Moves bullets closer to text */
 }
 
 li:last-child {
   margin-bottom: 0; /* Removes margin after the last item */
+}
+
+#drugiAuti {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.autobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centriraj sliku i tekst */
+  text-align: center;
+  border-style: solid;
+}
+.autobox img {
+  max-width: 100%; /* Slika prilagođena veličini roditelja */
+  height: auto; /* Zadržava proporcije */
+  height: 600px;
+  width: 450px;
 }
