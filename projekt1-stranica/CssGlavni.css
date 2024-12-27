@@ -14,7 +14,7 @@ a {
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 0.7em;
   color: white;
   text-align: center;
   margin: 0;
@@ -55,8 +55,8 @@ footer {
   position: relative;
   width: 100%;
   max-width: 2860px; /* Adjust based on your preference */
-  height: 736px; /* Adjust height */
-  margin: 10px auto; /* Center the carousel */
+  height: 736px;
+  margin: 10px auto;
   overflow: hidden; /* Hide overflowing images */
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -70,13 +70,12 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensure images fit properly */
-  opacity: 0; /* Start hidden */
-  transition: opacity 1s ease-in-out; /* Smooth transition */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-/* Active image */
 .carousel-image.active {
-  opacity: 1; /* Show active image */
+  opacity: 1;
 }
 #text1 {
   text-align: justify;
@@ -91,30 +90,30 @@ footer {
 }
 h2 {
   font-weight: bold;
-  margin-bottom: 10px; /* Reduces space after h2 */
+  margin-bottom: 10px;
   font-size: 1.8rem;
   color: #333;
 }
 
 p {
   font-size: 1.5em;
-  margin-top: 5px; /* Brings p closer to h2 */
+  margin-top: 5px;
   margin-bottom: 15px;
 }
 
 ul {
-  margin: 10px 0 20px 20px; /* Adds margin to the list */
+  margin: 10px 0 20px 20px;
   padding-left: 20px;
 }
 
 li {
   font-size: 1.5em;
-  margin-bottom: 10px; /* Adds space between list items */
-  list-style: disc inside; /* Moves bullets closer to text */
+  margin-bottom: 10px;
+  list-style: disc inside;
 }
 
 li:last-child {
-  margin-bottom: 0; /* Removes margin after the last item */
+  margin-bottom: 0;
 }
 
 #drugiAuti {
@@ -123,18 +122,18 @@ li:last-child {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
 }
 .autobox {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centriraj sliku i tekst */
+  align-items: center;
   text-align: center;
   border-style: solid;
 }
 .autobox img {
-  max-width: 100%; /* Slika prilagođena veličini roditelja */
-  height: auto; /* Zadržava proporcije */
+  max-width: 100%;
+  height: auto;
   height: 600px;
   width: 450px;
 }
