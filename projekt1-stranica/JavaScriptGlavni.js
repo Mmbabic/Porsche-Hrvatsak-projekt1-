@@ -10,4 +10,4 @@ function changeImage() {
   images[currentImageIndex].classList.add("active");
 }
 
-setInterval(changeImage, 7000); // 7000 ms = 7 seconds
+setInterval(changeImage, 3000); // 7000 ms = 7 seconds

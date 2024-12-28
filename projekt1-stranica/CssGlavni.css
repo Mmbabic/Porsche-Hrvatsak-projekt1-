@@ -137,3 +137,18 @@ li:last-child {
   height: 600px;
   width: 450px;
 }
+a {
+  font-weight: bold;
+}
+.slikazoom {
+  transition: transform 0.3s ease;
+}
+
+.slikazoom:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#drugiAuti {
+  font-family: "911 Porscha", sans-serif;
+}
