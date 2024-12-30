@@ -2,7 +2,7 @@ body,
 html {
   display: block;
   text-align: center;
-  background-color: white;
+  background-color: whitesmoke;
   color: #333; /* Bolja boja za čitljivost */
   margin: 0;
   padding: 0;
@@ -78,10 +78,11 @@ footer {
   opacity: 1;
 }
 #text1 {
+  color: #333;
   text-align: justify;
   margin: 20px 0;
   padding: 20px;
-  background: #fff;
+  background: whitesmoke;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
